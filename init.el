@@ -1,6 +1,9 @@
 
 (add-to-list 'load-path "~/.emacs.d/lisp")
 
+;; no backup file
+(setq make-backup-files nil)
+      
 ;; system-type
 ;;  `gnu'          compiled for a GNU Hurd system.
 ;;  `gnu/linux'    compiled for a GNU/Linux system.
@@ -17,4 +20,4 @@
 
 ;; load other configurations
 (load-library "my-git")
-
+(load-library "my-jekyll")
