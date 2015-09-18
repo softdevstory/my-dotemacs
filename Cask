@@ -10,3 +10,4 @@
 ;;(depends-on "jekyll")
 (depends-on "hyde")
 (depends-on "psvn")
+(depends-on "web-mode")
