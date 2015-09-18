@@ -7,5 +7,6 @@
 (depends-on "magit")
 (depends-on "markdown-mode")
 (depends-on "rbenv")
-(depends-on "jekyll")
+;;(depends-on "jekyll")
 (depends-on "hyde")
+(depends-on "psvn")

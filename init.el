@@ -21,3 +21,4 @@
 ;; load other configurations
 (load-library "my-git")
 (load-library "my-jekyll")
+(load-library "my-subversion")
