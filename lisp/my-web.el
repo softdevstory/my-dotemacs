@@ -19,7 +19,10 @@
 
   (setq web-mode-style-padding 2)
   (setq web-mode-script-padding 2)
-
+  
+  (setq indent-tabs-mode nil)
+  (infer-indentation-style)
+  
 ;  (setq web-mode-block-padding 0)
 ;  (setq web-mode-comment-style 2)
 )
