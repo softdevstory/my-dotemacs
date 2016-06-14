@@ -1,8 +1,10 @@
 (require 'web-mode)
 
+
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.css\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.js\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode))
 
 (add-to-list 'web-mode-indentation-params '("lineup-args" . nil))
 (add-to-list 'web-mode-indentation-params '("lineup-calls" . nil))
@@ -25,5 +27,14 @@
   
 ;  (setq web-mode-block-padding 0)
 ;  (setq web-mode-comment-style 2)
-)
+  )
+
 (add-hook 'web-mode-hook  'my-web-mode-hook)
+
+;; for better jsx syntax-highlighting in web-mode
+;; - courtesy of Patrick @halbtuerke
+(defadvice web-mode-highlight-part (around tweak-jsx activate)
+  (if (equal web-mode-content-type "jsx")
+    (let ((web-mode-enable-part-face nil))
+      ad-do-it)
+    ad-do-it))

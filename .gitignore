@@ -2,3 +2,10 @@ auto-save-list
 .cask
 elpa
 _site
+
+*~
+\#*\#
+*.elc
+tramp
+.\#*
+

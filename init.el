@@ -1,4 +1,3 @@
-
 (add-to-list 'load-path "~/.emacs.d/lisp")
 
 ;; no backup file
@@ -18,8 +17,15 @@
 ;; package management
 (load-library "my-cask")
 
+(load-library "my-ido")
+
 ;; load other configurations
 (load-library "my-git")
+;; (load-library "my-subversion")
+
 (load-library "my-jekyll")
-(load-library "my-subversion")
-(load-library "my-web")
+
+(load-library "my-flycheck")
+(load-library "my-webmode")
+
+(load-library "my-react")
