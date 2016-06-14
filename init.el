@@ -1,5 +1,8 @@
 (add-to-list 'load-path "~/.emacs.d/lisp")
 
+;; package management
+(load-library "my-cask")
+
 ;; no backup file
 (setq make-backup-files nil)
       
@@ -14,9 +17,6 @@
 (cond
  ((eq system-type 'darwin) (load-library "my-osx")))
 
-;; package management
-(load-library "my-cask")
-
 (load-library "my-ido")
 
 ;; load other configurations
@@ -27,5 +27,3 @@
 
 (load-library "my-flycheck")
 (load-library "my-webmode")
-
-(load-library "my-react")
