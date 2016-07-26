@@ -15,19 +15,21 @@
   "Hooks for Web mode."
   (local-set-key (kbd "RET") 'newline-and-indent)
   
-  (setq web-mode-markup-indent-offset 2)
-  (setq web-mode-css-indent-offset 2)
-  (setq web-mode-code-indent-offset 2)
+  (setq web-mode-markup-indent-offset 4)
+  (setq web-mode-css-indent-offset 4)
+  (setq web-mode-code-indent-offset 4)
 
-  (setq web-mode-style-padding 2)
-  (setq web-mode-script-padding 2)
+  (setq web-mode-style-padding 4)
+  (setq web-mode-script-padding 4)
   
   (setq indent-tabs-mode nil)
-  (infer-indentation-style)
+;   (infer-indentation-style)
   
 ;  (setq web-mode-block-padding 0)
 ;  (setq web-mode-comment-style 2)
-  )
+)
+
+(setq web-mode-content-types-alist '(("jsx" . "\\.js[x]?\\'")))
 
 (add-hook 'web-mode-hook  'my-web-mode-hook)
 
@@ -38,3 +40,5 @@
     (let ((web-mode-enable-part-face nil))
       ad-do-it)
     ad-do-it))
+
+

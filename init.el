@@ -25,5 +25,5 @@
 
 (load-library "my-jekyll")
 
-(load-library "my-flycheck")
+;; (load-library "my-flycheck")
 (load-library "my-webmode")

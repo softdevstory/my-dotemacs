@@ -23,3 +23,6 @@
 ;; disable emacs lisp checkdoc
 (with-eval-after-load 'flycheck
   (setq-default flycheck-disabled-checkers '(emacs-lisp-checkdoc)))
+
+;; 
+;;(eval-after-load 'flycheck '(flycheck-add-mode 'html-tidy 'web-mode))
