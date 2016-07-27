@@ -27,3 +27,9 @@
 
 ;; (load-library "my-flycheck")
 (load-library "my-webmode")
+
+(load-library "my-theme")
+
+(load-library "my-neotree")
+(load-library "my-projectile")
+(load-library "my-helm")
