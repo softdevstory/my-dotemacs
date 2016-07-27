@@ -33,3 +33,5 @@
 (load-library "my-neotree")
 (load-library "my-projectile")
 (load-library "my-helm")
+
+(load-library "my-multiple-cursors")

@@ -13,3 +13,4 @@ async-bytecomp.log
 ido.last
 projectile-bookmarks.eld
 projectile.cache
+.mc-lists.el 

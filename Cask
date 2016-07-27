@@ -17,6 +17,8 @@
 
 (depends-on "neotree")
 
+(depends-on "multiple-cursors")
+
 ;; for React
 (depends-on "flycheck")
 (depends-on "js2-mode")
