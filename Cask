@@ -4,6 +4,7 @@
 
 (depends-on "bind-key")
 (depends-on "cask")
+(depends-on "git-blame")
 (depends-on "magit")
 (depends-on "markdown-mode")
 (depends-on "rbenv")
