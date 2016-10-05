@@ -1,5 +1,6 @@
-(require 'web-mode)
+(my-install-packages '(flycheck js2-mode json-mode web-mode exec-path-from-shell))
 
+(require 'web-mode)
 
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.css\\'" . web-mode))

@@ -1,3 +1,5 @@
+(my-install-packages '(helm helm-ag))
+
 (require 'helm)
 (require 'helm-ag)
 

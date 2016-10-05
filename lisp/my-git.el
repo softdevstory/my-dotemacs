@@ -1,5 +1,7 @@
+(my-install-packages '(git-blame magit))
+
 ;; homebrew git version's path
-(add-to-list 'load-path "/usr/local/share/git-core/contrib/emacs")
+;; (add-to-list 'load-path "/usr/local/share/git-core/contrib/emacs")
 
 ;;(require 'git)
 ;; (load-file "/usr/local/share/git-core/contrib/emacs/git.el")

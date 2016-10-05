@@ -1,3 +1,5 @@
+(my-install-packages '(exec-path-from-shell))
+
 ;; Mac OS X Encodings
 
 (set-terminal-coding-system 'utf-8)

@@ -1,3 +1,5 @@
+(my-install-packages '(color-theme zenburn sublime-themes))
+
 (require 'zenburn)
 ;;(zenburn)
 
