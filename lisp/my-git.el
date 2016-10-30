@@ -1,4 +1,4 @@
-(my-install-packages '(git-blame magit))
+(my-install-packages '(magit))
 
 ;; homebrew git version's path
 ;; (add-to-list 'load-path "/usr/local/share/git-core/contrib/emacs")
@@ -6,7 +6,7 @@
 ;;(require 'git)
 ;; (load-file "/usr/local/share/git-core/contrib/emacs/git.el")
 
-(require 'git-blame)
+;; (require 'git-blame)
 
 (require 'magit)
 (setq magit-auto-revert-mode nil)
