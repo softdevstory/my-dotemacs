@@ -47,3 +47,5 @@
 (load-library "my-helm")
 
 (load-library "my-multiple-cursors")
+
+(load-library "my-dash")
