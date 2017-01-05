@@ -1,4 +1,4 @@
-(my-install-packages '(magit))
+(my-install-packages '(magit gist))
 
 ;; homebrew git version's path
 ;; (add-to-list 'load-path "/usr/local/share/git-core/contrib/emacs")
@@ -11,3 +11,5 @@
 (require 'magit)
 (setq magit-auto-revert-mode nil)
 (setq magit-last-seen-setup-instructions "1.4.0")
+
+(require 'gist)
