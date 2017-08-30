@@ -12,6 +12,9 @@
 
 (add-to-list 'load-path "~/.emacs.d/lisp")
 
+(setq custom-file "~/.emacs.d/custom.el")
+(load custom-file)
+
 ;; package management
 (load-library "my-package")
 

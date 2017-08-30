@@ -16,3 +16,5 @@ projectile.cache
 .mc-lists.el 
 
 var
+
+custom.el
